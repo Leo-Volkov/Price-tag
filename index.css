@@ -67,11 +67,11 @@ input {
     }
 
     .td-2 {
-        padding-left: 0px ;
+        margin-left: -3px ;
     }
 
     .td-1 input {
-        margin-left: -12px;
+        margin-left: -15px;
         width: 188px;
         height: 36px;
     }
