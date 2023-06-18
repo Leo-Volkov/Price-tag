@@ -1,0 +1,98 @@
+body {
+    background-color: #30c564;
+}
+
+.tabl {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    height: 50px;
+}
+.tabls {
+    display: flex;
+    justify-content: center;
+}
+.table {
+    background-color: #e3dede;
+}
+.кнопки{
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    border: 0;
+    background-color: #e3dede;
+    border: none;
+}
+
+.button_c {
+    display: flex;
+    justify-content: center;
+}
+
+.td-1, .td-2 {
+    border: 1px solid rgb(28, 28, 28);
+    display: flex;
+    align-items: center;
+
+}
+
+.result {
+    background-color: #c66c6c;
+}
+
+.th-1, .th-2 {
+    border: 1px solid rgb(28, 28, 28);
+    display: flex;
+    align-items: center;
+}
+
+
+@media (max-width: 599px) {
+    .table {
+        height: 40px;
+        width: 270px;
+    }
+
+    .button_c div {
+        border-radius: 0px;
+        border: 1px solid rgb(28, 28, 28);
+    }
+    .button_c {
+        height: 0px;
+        width: 270px;
+        margin-top: 5px;
+    }
+
+    .td-2 {
+        padding-left: 3px ;
+    }
+
+    .td-1 input {
+        margin-left: -12px;
+        width: 188px;
+        height: 36px;
+    }
+    .td-2 input {
+        width: 62px;
+        height: 36px;
+    }
+
+    .result {
+        height: 45px;
+        width: 300px;
+    }
+    
+    .th-1 {
+        font-family: "Times NeW Roman";
+        font-size: 26px;
+        font-weight: 450;
+    }
+    .th-2 {
+        padding-left: 3px ;
+        font-size: 16px;
+        font-weight: 500;
+    }
+    
+}
