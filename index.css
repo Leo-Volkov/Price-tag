@@ -24,6 +24,7 @@ input {
     border: 0;
     background-color: #e3dede;
     border: none;
+    outline: none !important;
 }
 
 .button_c {
