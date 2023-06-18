@@ -52,7 +52,7 @@ input {
 @media (max-width: 599px) {
     .table {
         height: 40px;
-        width: 270px;
+        width: 280px;
     }
 
     .button_c div {
@@ -61,7 +61,7 @@ input {
     }
     .button_c {
         height: 0px;
-        width: 270px;
+        width: 280px;
         margin-top: 5px;
     }
 
