@@ -1,6 +1,6 @@
 body {
-    background-color: #F9DFEC;
-}
+    background-color: #98fb98 ;
+}/* #F9DFEC */
 
 .tabl {
     display: flex;
@@ -12,9 +12,10 @@ body {
     display: flex;
     justify-content: center;
 }
-.table {
-    background-color: #e3dede;
-}
+.table, input {
+    background-color: #ffffff;
+} /* #e3dede */
+
 .кнопки{
     display: flex;
     justify-content: center;
@@ -22,9 +23,9 @@ body {
 
 input {
     border: 0;
-    background-color: #e3dede;
     border: none;
     outline: none;
+    text-align: left;
 }
 
 .button_c {
@@ -40,8 +41,8 @@ input {
 }
 
 .result {
-    background-color: #A3DDDE;
-}
+    background-color: #ffffff;
+}/* #A3DDDE */
 
 .th-1, .th-2 {
     border: 1px solid rgb(28, 28, 28);
@@ -71,8 +72,8 @@ input {
         height: 36px;
     }
     .td-2 input {
-        margin-left: -4px;
-        width: 62px;
+        margin-left: -12px;
+        width: 77px;
         height: 36px;
     }
 
