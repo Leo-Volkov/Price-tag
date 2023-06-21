@@ -27,15 +27,15 @@ document.querySelector(`#add_плюс`).addEventListener(`click`, function (evt)
         cart_4.classList.remove("d-none");
     } else if (r == 4) {
         cart_5.classList.remove("d-none");
-    } else if (r == 6) {
+    } else if (r == 5) {
         cart_6.classList.remove("d-none");
-    } else if (r == 7) {
+    } else if (r == 6) {
         cart_7.classList.remove("d-none");
-    } else if (r == 8) {
+    } else if (r == 7) {
         cart_8.classList.remove("d-none");
-    } else if (r == 9) {
+    } else if (r == 8) {
         cart_9.classList.remove("d-none");
-    } else if (r == 10) {
+    } else if (r == 9) {
         cart_10.classList.remove("d-none");
     };
 
