@@ -2,7 +2,6 @@ let a = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 
 // Раздел по добавлению и удалению строк
 let cont = document.querySelector(`.cont`);
-
 let r = 0;
 let counter_r = document.querySelector(`.counter_r`);
 
@@ -44,6 +43,7 @@ document.querySelector(`#add_плюс`).addEventListener(`click`, function (evt)
     if (r >= 0 && r <= 9){
         r++;
     };
+
     counter_r.innerHTML = `${r + 1}/11`;
 });
 
@@ -83,9 +83,11 @@ document.querySelector(`#add_минус`).addEventListener(`click`, function (ev
     if (r >= 1 && r <= 11){
         r--;
     };
+
     counter_r.innerHTML = `${r + 1}/11`;
+
+    th_2.innerHTML = `${a[0] + a[1] + a[2] + a[3] + a[4] + a[5] + a[6] + a[7] + a[8] + a[9] + a[10]}₽`;
     
-    th_2.innerHTML = `${a[0] + a[1] + a[2] + a[3] + a[4] + a[5] + a[6] + a[7] + a[8] + a[9] + a[10]}₽`;    
 });
 
 

@@ -49,7 +49,6 @@ input {
     align-items: center;
 }
 
-
 @media (max-width: 599px) {
     .table {
         height: 40px;
